@@ -52,11 +52,11 @@ music = \relative c' {
     % 30
     < d\5 d' >4 fis8 c'\3 a,\6 e'' fis,4
     < g, d'' >8 b'\3 f a' g,, e''\2\glissando < dis f, >4
-    < c, c' >4 e8 g g, c' e,4
   }
 
   \alternative {
     {
+      < c, c' >4 e8 g g, c' e,4
       c4 g a b
       c < e g' > g,8 c' e,4
       e4\5 < gis d' e e > b,8\6 d'\3 gis,\4 e'\2
