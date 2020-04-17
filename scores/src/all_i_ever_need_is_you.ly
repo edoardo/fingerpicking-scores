@@ -104,9 +104,9 @@ music = \relative c' {
       < g, d'' >8 b'\3 f a' g,, e''\2\glissando ^(< dis f, >4)
 
       % ending
-      < c, e g c g' >8
-      \hideNotes \grace { g''16\glissando } \unHideNotes c8 a ees\3\glissando d\3 c\3 a\4 g\4
-      e\5\glissando f\5 c'4\3 < g, c e g c > < g c e g b e >
+      < c, e g c g' >4
+      \hideNotes \grace { g''16\glissando } \unHideNotes c4 a8 ees\3\glissando d\3 c\3
+      a8\4 g\4 e\5\glissando f\5 c'4\3 < g, c e g c >
       ( < g c e g b e >1) 
     }
   }
