@@ -107,7 +107,7 @@ music = \relative c' {
       < c, e g c g' >4
       \hideNotes \grace { g''16\glissando } \unHideNotes c4 a8 ees\3\glissando d\3 c\3
       a8\4 g\4 e\5\glissando f\5 c'4\3 < g, c e g c >
-      ( < g c e g b e >1) 
+      < g c e g b e >1
     }
   }
   \bar "|."
