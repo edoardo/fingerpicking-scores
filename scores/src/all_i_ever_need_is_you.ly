@@ -79,7 +79,7 @@ music = \relative c' {
 
       % 50
       c'4 < e g' > g,8 c' e,4
-      d4\5 < gis d' e e > b,8\6 d'\3 gis,\4 e'\2
+      e4\5 < gis d' e e > b,8\6 d'\3 gis,\4 e'\2
       a,,4 < g'\4 cis\3 e\2 >8\glissando < fis c' dis > e, < fis' c' dis >\glissando < g\4 cis\3 e\2 >4
       < a, b''\harmonic >4 g'8\4 cis\3 e,, e''\2 g,4\4
       d4\5 < f c'\3 e\2 > a,\6 < f' c'\3 e\2 >
