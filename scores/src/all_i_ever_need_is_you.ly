@@ -71,7 +71,7 @@ music = \relative c' {
       f,4 < f' a d > < f, a' d >8 < a' c > f g
       fis,4 < ees' a b > a, ees'
       c8 g'' e,4 b bes
-      a8 < ees' a c >\glissando < g\4 cis\3 e\2 e,, > < g cis e b' > e, < g' cis e b' > g4
+      a8 < ees' a c >\glissando < g\4 cis\3 e\2 e,, > < g cis e b' > e, < g' cis e b' > g4\4
       d8\5 < c' d > fis, e' a,,\6 < c' d > fis, e'
       d,8\5 < c' d > fis, e' a,,\6 < c' d > fis,4
       < g, g' b g' >4 < fis d' g > < g d' g > < fis d' g >
@@ -91,7 +91,7 @@ music = \relative c' {
 
       % 60
       c8 g'' e,4 b bes
-      a8 < ees' a c >\glissando < g\4 cis\3 e\2 e,, > < g cis e b' > e, < g' cis e b' > g4
+      a8 < ees' a c >\glissando < g\4 cis\3 e\2 e,, > < g cis e b' > e, < g' cis e b' > g4\4
       d4\5 < fis c' d > a,8\6 e'' fis,4
       < g, d'' >8 b'\3 f a' g,, e''\2\glissando ^(< dis f, >4)
       < c, c' >4 e8 g g, c' e,4
@@ -119,6 +119,7 @@ music = \relative c' {
       \set Staff.midiInstrument = #"acoustic guitar (steel)"
       \clef "treble_8"
       \override StringNumber #'transparent = ##t
+      \tempo 4 = 170
       \music
     }
     \new TabStaff {
@@ -127,4 +128,5 @@ music = \relative c' {
     }
   >>
   \layout { }
+  \midi { }
 }
